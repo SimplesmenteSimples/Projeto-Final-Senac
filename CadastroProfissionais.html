@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjetoF</title>
+</head>
+<body>
+    <header>    </header>    
+
+    <main> 
+
+<div> 
+    <h1 class="Ola">Faça parte da nossa equipe!</h1>
+</div>
+
+<section class="container contact">
+
+<fieldset>   
+    <form method = "get">
+
+<div class= "NomeDiv">
+    <label for ="nome" class ="labelNome"> Nome Completo:</label><br>
+    <input type="text" id="nome" name="nome" class ="inputNome" title="Use apenas letras, espaços, hífens ou apóstrofos."> <br>
+</div>
+
+<div class="CidadeDiv">
+    <label for ="CidadeTrabalho" class ="labelCidade"> Cidade onde Trabalha:</label><br>
+    <input type="text" id="InputCidade" name="cidade" class ="inputCidade" placeholder required> <br>
+</div>
+
+<div class="TipoDeServicoDiv">
+    <label for ="Servico" class ="labelServico"> Tipo de Serviço:</label><br>
+    <input type="text" id="InputServico" name="servico" class ="InputServico" placeholder required> <br>
+</div>
+
+<div class="TelefoneDiv">
+    <label for ="Telefone"> Telefone para Contato:</label><br>
+    <input type="tel" id="InputTelefone" name="telefone" pattern="[0-9]{2} [0-9]{4}-[0-9]{4}" placeholder required> <br> 
+</div>
+
+<div class="EmailDIv">
+    <label for ="Email" class ="labelEmail"> E-mail:</label><br>
+    <input type="email" id="InputEmail" name="email" class ="inputEmail" placeholder required> <br> 
+</div>
+
+<div class="DescricaoDiv">
+    <label for ="Descricao" class ="labelDescricao"> Descrição: </label><br>
+    <textarea id="InputDescricao" name="descricao" class ="inputDescricao" placeholder rows="4" cols="50"  required></textarea><br> 
+</div>
+
+
+<div class="BotaoDiv">
+    <button class= "botaoEnviar" type="submit"> ENVIAR</button>
+</div>
+
+
+</form>
+</fieldset>
+</section>
+<script src="script.js"></script>
+
+</main>
+
+    <footer>    </footer>
+</body>
+</html>
