@@ -1,0 +1,77 @@
+body{
+margin: 16px;
+min-height: 200vh;
+max-width: 50%;
+background-color: #E2FEFA;
+overflow-x: hidden;
+
+}
+
+.h1-Conectando {
+font-family: "Montserrat", sans-serif;
+font-size: 30px;
+color: #555555;
+margin-left: 157px;
+transform: translateY(260px);
+
+}
+
+.h1-Equipe {
+transform: translate(640px, 810px);
+color: blue;
+}
+
+.shape1 {
+transform: translate(767px, -574px);
+width: 85%;
+}
+
+.img-Equipe{
+    margin-top: 20px;
+    margin-left: 287px;
+    margin-right: 10px;
+    transform: translateY(840px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+    gap: 30px; /* espaço entre as caixas */
+    justify-items: center; /* centraliza cada item */
+    width: 90%;
+
+}
+
+.img-Caroline {
+max-width: 274px;
+max-height: 180px;
+margin-right: 24px;
+
+}
+
+.img-Gerald {
+max-width: 274px;
+max-height: 180px;
+margin-right: 24px;
+}
+
+.img-Averi{
+max-width: 274px;
+max-height: 180px;
+}
+.img-Lucas{
+max-width: 274px;
+max-height: 180px;
+margin-right: 24px;
+margin-top: 44px;
+}
+
+.img-Renato{
+max-width: 274px;
+max-height: 180px;
+margin-right: 24px;
+margin-top: 44px;
+}
+.img-Daniel{
+max-width: 274px;
+max-height: 180px;
+margin-top: 44px;
+
+}
