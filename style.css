@@ -145,6 +145,9 @@ margin-top: 44px;
   justify-content: center;
 }
 
+/* Cadastro Profissionais */
+
+
 body.CadastroProfissionais {
   margin: 16px;
   min-height: 100vh;
@@ -268,4 +271,90 @@ align-items: center;
 position: absolute;
 left: 39%;
 top: 10%;
+}
+
+/* Pagina Servicos */
+
+body.Servicos {
+margin-top: auto;
+background-color: #E2FEFA;
+}
+
+.linha{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.i1 {
+  width: 80%;
+  transition: transform 0.3s;
+}
+
+
+.i1:hover {
+  transform: scale(1.05);
+ 
+}
+
+
+.i2 {
+  width: 80%;
+  transition: transform 0.3s;
+}
+
+.i2:hover {
+  transform: scale(1.05);
+ 
+}
+
+.i3 {
+ width: 80%;
+  transition: transform 0.3s;
+}
+
+.i3:hover {
+  transform: scale(1.05);
+ 
+}
+
+.i4 {
+ width: 80%;
+  transition: transform 0.3s;
+}
+
+.i4:hover {
+  transform: scale(1.05);
+ 
+}
+
+.i5 {
+   width: 80%;
+  transition: transform 0.3s;
+}
+
+.i5:hover {
+  transform: scale(1.05);
+ 
+}
+
+.Titulo-S {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: #496E67;
+  text-align: left;
+  margin-top: 30px;
+  position: absolute;
+  top: 20%;
+  left: 20px
+}
+
+.patas2 {
+  position: absolute;
+   text-align: left;
+  margin-top: 30px;
+  position: absolute;
+  top: 0.4%;
+  left: 20px
 }
