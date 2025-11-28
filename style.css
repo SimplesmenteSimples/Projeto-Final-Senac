@@ -1,0 +1,271 @@
+body{
+  margin: 16px;
+  min-height: 200vh;
+  background-color: #E2FEFA;
+  overflow-x: hidden;
+  grid: 300px / auto;
+}
+
+.hero {
+  display: flex;
+  align-items: center;       
+  justify-content: center; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.hero-text {
+  display: flex;
+  height: 160px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.h1-Conectando {
+ font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: hsl(0, 0%, 33%);
+  max-width: 440px;
+  white-space: nowrap;  
+}
+
+.shapes {  
+  position: relative;
+  height: 300px;
+  margin: 10px;
+}
+
+.shape1 {
+position: absolute;
+bottom: 650px;
+right: 20px;
+width: 550px;
+}
+
+.shape2 {
+position: absolute;
+left: 40px;
+width: 130px;
+}
+
+.shape3 {
+    
+  position: absolute;
+  top: 40px;
+  left: 300px;
+  width: 200px;
+}
+
+.dogs { 
+  position: absolute;
+  right: 120px;
+  bottom :650px;
+  width: 30%;
+z-index: 2;
+}
+
+.trabalhe{
+font-family: "Montserrat", sans-serif;
+font-weight: bold;
+font-size: 16px;
+border-radius: 12px;
+border: none;
+background-color: #4B6F6A;
+color :white;
+width:190px;
+height: 50px;
+transition: all 0.3s;
+}
+
+.botaoEnviarT {
+   justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  padding: 1em;
+  }
+
+.trabalhe:hover {
+    background-color: #456360;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.img-Equipe {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.img-Caroline {
+max-width: 274px;
+max-height: 180px;
+margin-right: 24px;
+
+}
+
+.img-Gerald {
+max-width: 274px;
+max-height: 180px;
+margin-right: 24px;
+}
+
+.img-Averi{
+max-width: 274px;
+max-height: 180px;
+}
+.img-Lucas{
+max-width: 274px;
+max-height: 180px;
+margin-right: 24px;
+margin-top: 44px;
+}
+
+.img-Renato{
+max-width: 274px;
+max-height: 180px;
+margin-right: 24px;
+margin-top: 44px;
+}
+.img-Daniel{
+max-width: 274px;
+max-height: 180px;
+margin-top: 44px;
+}
+
+.containerContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body.CadastroProfissionais {
+  margin: 16px;
+  min-height: 100vh;
+  background-color: #E2FEFA;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  grid: 300px / auto;
+}
+
+.NomeDiv, .EmailDIv, .TelefoneDiv, .CidadeDiv, .ProfissaoDiv, .TipoDeServicoDiv, .DescricaoDiv{
+  font-family: "Montserrat", sans-serif;
+  color: #555555;
+  margin-bottom: 25px;
+  display: flex;
+   height: 50px;
+  flex-direction: column;
+}
+
+
+#nome, #InputCidade, #InputServico, #InputDescricao, #InputTelefone, #InputEmail, #InputDescricao {
+padding: auto;
+line-height: 38px;
+border-radius: 4px;
+}
+
+.inputNome, .inputEmail, .inputTelefone, .inputCidade, .InputServico, .inputDescricao, .InputTelefone {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  border-style: none;
+  background-color: #496E67;
+  color: white;
+}
+
+.form{
+  text-decoration: none;
+  border-style: none;
+  top: 20%;
+  position: absolute;
+}
+
+.botaoEnviar{
+margin-top: 110px;
+border-style: none;
+
+}
+
+.botaoEnviar {
+  left: 80%;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid #496E67;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #496E67;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+.botaoEnviar:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #496E67;
+  z-index: -1;
+}
+
+.botaoEnviar:hover, .botaoEnviar:focus {
+  color: white;
+}
+
+.botaoEnviar:hover:before, .botaoEnviar:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.botaoEnviar:active {
+  transform: scale(0.9);
+}
+
+.Dog{
+  margin-left: auto;
+  position: absolute;
+  right: 0%;
+  top: 40%
+}
+
+.shapeForm{
+  position: absolute;
+  left: -10%;
+  top: -10%;
+  width: 30%;
+  z-index: -1;
+}
+
+.patas{
+margin: 30px;
+
+}
+
+.Ola{
+font-family: Montserrat, sans-serif;
+color: #555555;
+margin: auto;
+align-items: center;
+position: absolute;
+left: 39%;
+top: 10%;
+}

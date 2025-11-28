@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleForm.css">
+    <link rel="stylesheet" href="style.css">
     <title>ProjetoF</title>
 </head>
-<body>
+<body class="CadastroProfissionais">
     <header>    </header>    
 
     <main> 
 
 <div> 
-    <h1 class="Ola">Faça parte da nossa equipe!</h1>
+    <h1 class="Ola">Cadastro de profissionais</h1>
 </div>
 
 <section class="containerContact">
 
-<fieldset>   
-    <form method = "get">
+<fieldset class="form">   
+    <form  method = "get">
 
 <div class= "NomeDiv">
     <label for ="nome" class ="labelNome"> Nome Completo:</label><br>
-    <input type="text" id="nome" name="nome" class ="inputNome" title="Use apenas letras, espaços, hífens ou apóstrofos."> <br>
+    <input type="text" id="nome" name="nome" class ="inputNome" title="Use apenas letras, espaços, hífens ou apóstrofos." required> <br>
 </div>
 
 <div class="CidadeDiv">
@@ -37,7 +37,7 @@
 
 <div class="TelefoneDiv">
     <label for ="Telefone"> Telefone para Contato:</label><br>
-    <input type="tel" id="InputTelefone" name="telefone" pattern="[0-9]{2} [0-9]{4}-[0-9]{4}" placeholder required> <br> 
+    <input type="tel" id="InputTelefone" name="telefone" class="InputTelefone" pattern="[0-9]{2} [0-9]{4}-[0-9]{4}" title="(Faça no seguinte formato: XX XXXX-XXXX)" placeholder required> <br> 
 </div>
 
 <div class="EmailDIv">
@@ -59,6 +59,9 @@
 </form>
 </fieldset>
 </section>
+<img class="Dog" src="img/Prancheta 1.png">
+<img class="shapeForm" src="img/Shape.png">
+<img class="patas" src="img/Group 81.png">
 <script src="script.js"></script>
 
 </main>
